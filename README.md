@@ -4,7 +4,7 @@ GENERAL
 
 App for finding top 20 words in file.
 
-App support latin and cyrillic symbols.
+App supports latin and cyrillic symbols.
 
 INSTALLING
 
