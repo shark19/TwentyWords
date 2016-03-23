@@ -12,7 +12,7 @@ To use this app you need Java Runtime Environment (8 version or above).
 
 To run app type command in terminal depending on your operating system.
 
-For example(Linux): java -jar full_program_name "file_path.jar". 
+For example(Linux): java -jar full_program_name.jar "file_path".
 
 CONTACTS
 
