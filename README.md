@@ -8,9 +8,9 @@ App supports latin and cyrillic symbols.
 
 INSTALLING
 
-To use this app you need Java Runtime Environment (8 version or above).
+You need Java Runtime Environment (8 version or above) to use this app.
 
-To run app type command in terminal depending on your operating system.
+To run this app type command in terminal depending on your operating system.
 
 For example(Linux): java -jar full_program_name.jar "file_path".
 
