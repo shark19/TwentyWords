@@ -10,7 +10,7 @@ public class TwentyWords {
     
     public static void main(String... args) {
         try {
-            ArrayList<String> list = createWordsList("/home/chist/1.txt");
+            ArrayList<String> list = createWordsList(args[0]);
 
             LinkedHashMap<String, Integer> hm = createMapSortedByValue(list);
 
