@@ -27,7 +27,7 @@ public class TwentyWords {
 
         try (BufferedReader in = new BufferedReader(new FileReader(fileName))){
             while (in.ready())
-                sb.append((char) in.read());
+                sb.append(in.readLine());
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
             System.exit(0);

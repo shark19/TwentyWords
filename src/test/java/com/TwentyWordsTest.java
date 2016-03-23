@@ -13,7 +13,7 @@ public class TwentyWordsTest {
         красный. кРасный: зеленый!65
         *Black black- WHITE.
     */
-    private String fileName = "/home/chist/IdeaProjects/TwentyPopularWords/src/test/java/com/test.txt";
+    private String fileName = "/home/chist/IdeaProjects/TwentyWords/src/test/java/resources/test.txt";
 
     //Корректно ли список отбирает слова
     @org.junit.Test
