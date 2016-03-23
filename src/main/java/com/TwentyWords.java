@@ -10,7 +10,7 @@ public class TwentyWords {
     
     public static void main(String... args) {
         try {
-            ArrayList<String> list = createWordsList(args[0]);
+            ArrayList<String> list = createWordsList("/home/chist/1.txt");
 
             LinkedHashMap<String, Integer> hm = createMapSortedByValue(list);
 
@@ -44,6 +44,11 @@ public class TwentyWords {
             list.add(st.nextToken().toUpperCase()); //Попутно приводим к общему регистру
         }
 
+        //Если список пустой завершаем программу
+        if(list.isEmpty()){
+            System.out.println("No words in file");
+            System.exit(0);
+        }
         return list;
     }
 
